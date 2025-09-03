@@ -10,7 +10,11 @@ connectDB();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors());
+app.use(cors({
+  origin: ["http://localhost:5173", "https://mern-crm-frontend-gi9o.onrender.com"],
+  credentials: true,
+}));
+
 
 app.use("/api",crmRoutes);
 
