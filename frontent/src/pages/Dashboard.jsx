@@ -37,7 +37,7 @@ function Dashboard() {
         <h2 className="text-2xl font-bold text-green-600 mb-8">CRM</h2>
         <nav className="flex flex-col space-y-4">
           <Link
-            to="/"
+            to="/dashboard"
             className="flex items-center gap-2 text-gray-700 hover:text-green-600 font-medium"
           >
             📊 Dashboard
