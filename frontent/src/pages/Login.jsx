@@ -21,7 +21,7 @@ function LoginForm() {
       localStorage.setItem("token", response.data.token);
 
       console.log("Login successful:", response.data);
-      navigate("/");
+      navigate("/dashboard");
     } catch (error) {
       console.error("Login failed:", error.response?.data || error.message);
       alert("Invalid credentials");

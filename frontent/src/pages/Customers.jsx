@@ -94,7 +94,7 @@ function Customers() {
       </h2>
       <div className="absolute top-4 right-6">
         <Link
-          to="/"
+          to="/dashboard"
           className="bg-green-600 text-white px-5 py-2 rounded-lg shadow-md hover:bg-green-700 transition duration-200 font-medium"
         >
           Dashboard
